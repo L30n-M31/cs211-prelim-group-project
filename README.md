@@ -34,6 +34,7 @@ To run the sorting algorithms on a specific dataset, follow these steps:
 - [ ] `BubbleSort.java` : Class containing the bubble sort algorithm and implements the sorter interface
 - [ ] `InsertionSort.java` : Class containing the insertion sort algorithm and implements the sorter interface
 - [ ] `SelectionSort.java` : Class containing the selection sort algorithm and implements the sorter interface
+- [x] `Sorter.java` : Interface to be implemented by the sorting classes
 - [ ] `Main.java` : Executable class that outputs the execution times of each sorting method with the given data sets
 
 ## Deliverabels

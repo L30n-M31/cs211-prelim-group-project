@@ -5,7 +5,7 @@
 
 package sort;
 
-public class InsertionSort implements Sorter{
+public class InsertionSort implements Sorter {
     public long bestCount;
     public long aveCount;
     public long worstCount;

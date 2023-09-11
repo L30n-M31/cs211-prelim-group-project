@@ -1,3 +1,8 @@
+/**
+ * @author Leonhard Leung
+ * Date: 09/11/2023
+ */
+
 import sort.Sorter;
 import sort.BubbleSort;
 import sort.InsertionSort;

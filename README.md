@@ -24,18 +24,18 @@ This project is a part of our Data Structures course prelims. It focuses on impl
 
 ## Usage
 To run the sorting algorithms on a specific dataset, follow these steps:
-1. Go to the Main.java class. (the executable class of the program)
+1. Go to the Executable.java class. (the executable class of the program)
 2. In the run method, there is a nested for loop. simply change the number of the for loops. (A number guide is added as a comment before the loop)
 
 ## Task Checklist
-- [ ] `Data Files` : Directory containing all csv files organized in sub-folders per data set
-- [ ] `ArrayMaker.java` : Class used to handle the creation and population of arrays
-- [ ] `FileNames.java` : Class used to set the path of each csv file to be read by the executable class
-- [ ] `BubbleSort.java` : Class containing the bubble sort algorithm and implements the sorter interface
-- [ ] `InsertionSort.java` : Class containing the insertion sort algorithm and implements the sorter interface
-- [ ] `SelectionSort.java` : Class containing the selection sort algorithm and implements the sorter interface
+- [x] `Data Files` : Directory containing all csv files organized in sub-folders per data set
+- [x] `ArrayMaker.java` : Class used to handle the creation and population of arrays
+- [x] `FileNames.java` : Class used to set the path of each csv file to be read by the executable class
+- [x] `BubbleSort.java` : Class containing the bubble sort algorithm and implements the sorter interface
+- [x] `InsertionSort.java` : Class containing the insertion sort algorithm and implements the sorter interface
+- [x] `SelectionSort.java` : Class containing the selection sort algorithm and implements the sorter interface
 - [x] `Sorter.java` : Interface to be implemented by the sorting classes
-- [ ] `Main.java` : Executable class that outputs the execution times of each sorting method with the given data sets
+- [x] `Executable.java` : Executable class that outputs the execution times of each sorting method with the given data sets
 
 ## Deliverabels
 > Technical Report <br>

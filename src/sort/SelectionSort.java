@@ -6,9 +6,9 @@
 package sort;
 
 public class SelectionSort implements Sorter {
-    public long bestCount;
-    public long aveCount;
-    public long worstCount;
+    private long bestCount;
+    private long aveCount;
+    private long worstCount;
 
     @Override
     public long sort(String[] array) {

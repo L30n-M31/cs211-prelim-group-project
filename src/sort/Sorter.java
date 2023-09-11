@@ -14,7 +14,7 @@ public interface Sorter {
     long sort(String[] array);
 
     /**
-     * Sets the value of the total counts of each array to be sorted in ascending order
+     * Method that invokes the sort method to obtain the best, ave, and worst count
      * @param bestArray the array of type String that holds the best case scenario
      * @param aveArray the array of type String that holds the average case scenario
      * @param worstArray the array of type String that holds the worst case scenario

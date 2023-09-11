@@ -20,7 +20,7 @@ This project is a part of our Data Structures course prelims. It focuses on impl
   * Average Case: Data arranged randomly.
   * Worst Case: Data arranged in descending order.
 - __Sorting Execution:__ Execute each of the implemented sorting algorithms on the prepared data sets, measuring the number of statements executed during each sorting operation.
-- __Results Display: Provide a clear and comprehensive display of the total number of statements executed for each sorting algorithm and dataset variation.
+- __Results Display:__ Provide a clear and comprehensive display of the total number of statements executed for each sorting algorithm and dataset variation.
 
 ## Usage
 To run the sorting algorithms on a specific dataset, follow these steps:

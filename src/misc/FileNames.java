@@ -6,10 +6,10 @@
 package misc;
 
 public class FileNames {
-    String bestFile;
-    String aveFile;
-    String worstFile;
-    String dataLength;
+    private String bestFile;
+    private String aveFile;
+    private String worstFile;
+    private String dataLength;
 
     /**
      * The constructor creates an object of FileNames upon a given number of 1 to 5. The String values of the best

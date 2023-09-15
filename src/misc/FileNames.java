@@ -1,9 +1,7 @@
-/**
+package misc; /**
  * @author Leonhard Leung
  * Date: 09/10/2023
  */
-
-package misc;
 
 public class FileNames {
     private String bestFile;
@@ -12,7 +10,7 @@ public class FileNames {
     private String dataLength;
 
     /**
-     * The constructor creates an object of FileNames upon a given number of 1 to 5. The String values of the best
+     * The constructor creates an object of misc.FileNames upon a given number of 1 to 5. The String values of the best
      * file, average file, worst file, and data length will be assigned to an object.
      * @param number the data set to be used in an object
      */
@@ -24,7 +22,7 @@ public class FileNames {
             case 4 -> fiveHundredThousand();
             case 5 -> oneMillion();
         }
-    } // end of FileNames constructor
+    } // end of misc.FileNames constructor
 
     public void tenThousand() {
         bestFile = "Data Files/10k/10000_ascending.csv";
@@ -75,4 +73,4 @@ public class FileNames {
     public String getDataLength() {
         return dataLength;
     }
-} // end of FileNames class
+} // end of misc.FileNames class

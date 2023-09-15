@@ -3,12 +3,12 @@
  * Date: 09/11/2023
  */
 
+import misc.ArrayMaker;
+import misc.FileNames;
 import sort.Sorter;
 import sort.BubbleSort;
 import sort.InsertionSort;
 import sort.SelectionSort;
-import misc.ArrayMaker;
-import misc.FileNames;
 
 public class Executable {
     private Sorter sort;
@@ -52,7 +52,7 @@ public class Executable {
         System.out.println("populating arrays...");
         array.createArrays(bestArray, bestFile, aveArray, aveFile, worstArray, worstFile);
 
-        // sort and count
+        // group_project_1.misc.sort and count
         System.out.println("sorting and determining the number of executions...");
         execute.count(bestArray, aveArray, worstArray);
 

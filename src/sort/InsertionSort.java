@@ -34,7 +34,7 @@ public class InsertionSort implements Sorter {
 
 
         return initializeCounter + incrementCounter + conditionCounter + blockCounter + returnCounter;
-    } // end of sort method
+    } // end of group_project_1.misc.sort method
 
     @Override
     public void count(String[] bestArray, String[] aveArray, String[] worstArray) {

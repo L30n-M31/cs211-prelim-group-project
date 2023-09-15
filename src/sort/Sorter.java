@@ -9,12 +9,12 @@ public interface Sorter {
     /**
      * Sorts an array
      * @param array the array of type String to be sorted
-     * @return the number of times it takes to sort an array
+     * @return the number of times it takes to group_project_1.misc.sort an array
      */
     long sort(String[] array);
 
     /**
-     * Method that invokes the sort method to obtain the best, ave, and worst count
+     * Method that invokes the group_project_1.misc.sort method to obtain the best, ave, and worst count
      * @param bestArray the array of type String that holds the best case scenario
      * @param aveArray the array of type String that holds the average case scenario
      * @param worstArray the array of type String that holds the worst case scenario
@@ -40,7 +40,7 @@ public interface Sorter {
     long getWorstCount();
 
     /**
-     * Returns the sort type of the sorting algorithm used
+     * Returns the group_project_1.misc.sort type of the sorting algorithm used
      * @return a value of type String
      */
     String getSortType();

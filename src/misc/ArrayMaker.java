@@ -1,9 +1,7 @@
-/**
+package misc; /**
  * @author Leonhard Leung
  * Date: 09/10/2023
  */
-
-package misc;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -59,4 +57,4 @@ public class ArrayMaker {
         arrayMaker.populateArray(aveArray, aveFile);
         arrayMaker.populateArray(worstArray, worstFile);
     } // end of populate method
-} // end of ArrayMaker class
+} // end of misc.ArrayMaker class
